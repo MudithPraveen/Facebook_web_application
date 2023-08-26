@@ -6,6 +6,9 @@ import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 import PeopleAltRoundedIcon from '@mui/icons-material/PeopleAltRounded';
 import VideogameAssetRoundedIcon from '@mui/icons-material/VideogameAssetRounded';
+import AppsIcon from '@mui/icons-material/Apps';
+import ForumRoundedIcon from '@mui/icons-material/ForumRounded';
+import NotificationsActiveRoundedIcon from '@mui/icons-material/NotificationsActiveRounded';
 
 export default function NavBar() {
   return (
@@ -28,7 +31,22 @@ export default function NavBar() {
                 <VideogameAssetRoundedIcon/>
             </div>
         </div>
-        <div className="navBarRight"></div>
+        <div className="navBarRight">
+            <div className="rightIcons">
+                <div className="rightIcon">
+                    <AppsIcon/>
+                    <span className="iconTag">3</span>
+                </div>
+                <div className="rightIcon">
+                    <ForumRoundedIcon/>
+                    <span className="iconTag">3</span>
+                </div>
+                <div className="rightIcon">
+                    <NotificationsActiveRoundedIcon/>
+                    <span className="iconTag">3</span>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
