@@ -16,7 +16,7 @@ export default function NavBar() {
     <div className="navBarBox">
         <div className="navBarLeft">
             <div className="logo">
-                <FacebookRoundedIcon className='FbIcon'/>
+                <FacebookRoundedIcon className='FbIcon' style={{fontSize:'50px'}}/>
             </div>
             <div className="searchBarBox">
                 <SearchIcon className='serchIcon'/>
@@ -26,19 +26,19 @@ export default function NavBar() {
         <div className="navBarCenter">
             <div className="pages">
                 <div className="centerIcon">
-                    <HomeRoundedIcon className="centerIcon1"/>
+                    <HomeRoundedIcon className="centerIcon1" style={{fontSize:'35px'}}/>
                 </div>
                 <div className="centerIcon">
-                    <VideoLibraryIcon/>
+                    <VideoLibraryIcon style={{fontSize:'35px'}}/>
                 </div>
                 <div className="centerIcon">
-                    <StoreRoundedIcon/>
+                    <StoreRoundedIcon style={{fontSize:'35px'}}/>
                 </div>
                 <div className="centerIcon">
-                    <PeopleAltRoundedIcon/>
+                    <PeopleAltRoundedIcon style={{fontSize:'35px'}}/>
                 </div>
                 <div className="centerIcon">
-                    <VideogameAssetRoundedIcon/>
+                    <VideogameAssetRoundedIcon style={{fontSize:'35px'}}/>
                 </div>
             </div>
         </div>
@@ -46,11 +46,11 @@ export default function NavBar() {
             <div className="rightIcons">
                 <div className="rightIcon">
                     <AppsIcon/>
-                    <span className="iconTag">3</span>
+                    <span className="iconTag">2</span>
                 </div>
                 <div className="rightIcon">
                     <ForumRoundedIcon/>
-                    <span className="iconTag">3</span>
+                    <span className="iconTag">5</span>
                 </div>
                 <div className="rightIcon">
                     <NotificationsActiveRoundedIcon/>

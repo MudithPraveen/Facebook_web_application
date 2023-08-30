@@ -1,5 +1,5 @@
 .navBarBox{
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: #ffffff;
     display: flex;
@@ -15,21 +15,24 @@
     flex: 5;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: gray;
 }
 .navBarRight{
     flex: 4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     color: black;
+    margin-right: 20px;
+    
 }
 .profilePic{
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     object-fit: cover;
+    margin-left: 10%;
 }
 .logo{
     margin: 10px;
@@ -37,7 +40,7 @@
     cursor: pointer;
 }
 .searchBarBox{
-    width: 220px;
+    width: 240px;
     height: 35px;
     background-color: #dfe3ee;
     display: flex;
@@ -50,6 +53,7 @@
     background-color: #dfe3ee;
     border: 0;
     width: 80%;
+    font-size: 15px;
 }
 .searchInput:focus{
     outline: none;
@@ -65,7 +69,52 @@
 .rightIcons{
     display: flex;
     align-items: center;
+    
+}
+.centerIcon{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 13px;
+}
+.centerIcon:hover{
+    background-color: #e7eaf3;
+}
+.rightIcon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e5ee;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rightIcon:hover{
+    background-color: #d6d9e4;
+}
+.iconTag{
+    width: 14px;
+    height: 14px;
+    color: #ffffff;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 13px;
 }
 .centerIcon1{
     color: #1778F2;
+    font-size: 15px;
 }
