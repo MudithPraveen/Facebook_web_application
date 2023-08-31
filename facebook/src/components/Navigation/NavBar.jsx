@@ -30,19 +30,24 @@ export default function NavBar() {
         <div className="navBarCenter">
             <div className="pages">
                 <div className="centerIcon" >
-                    <HomeRoundedIcon onClick={pageButton(this)} style={{fontSize:'35px'}}/>
+                    <div><HomeRoundedIcon className='pageIcon1' onClick={pageButton(this)} style={{fontSize:'35px'}}/></div>
+                    <div className="iconBottom1"></div>
                 </div>
                 <div className="centerIcon">
-                    <VideoLibraryIcon style={{fontSize:'35px'}}/>
+                    <VideoLibraryIcon className='pageIcon' style={{fontSize:'35px'}}/>
+                    <div className="iconBottom"></div>
                 </div>
                 <div className="centerIcon">
-                    <StoreRoundedIcon style={{fontSize:'35px'}}/>
+                    <StoreRoundedIcon className='pageIcon' style={{fontSize:'35px'}}/>
+                    <div className="iconBottom"></div>
                 </div>
                 <div className="centerIcon">
-                    <PeopleAltRoundedIcon style={{fontSize:'35px'}}/>
+                    <PeopleAltRoundedIcon className='pageIcon' style={{fontSize:'35px'}}/>
+                    <div className="iconBottom"></div>
                 </div>
                 <div className="centerIcon">
-                    <VideogameAssetRoundedIcon style={{fontSize:'35px'}}/>
+                    <VideogameAssetRoundedIcon className='pageIcon' style={{fontSize:'35px'}}/>
+                    <div className="iconBottom"></div>
                 </div>
             </div>
         </div>

@@ -5,6 +5,7 @@
     display: flex;
     position: sticky;
     top: 0;
+    box-shadow: 0 5px 8px rgba(167, 166, 166, 0.5);
 }
 .navBarLeft{
     flex: 4;
@@ -15,14 +16,16 @@
     flex: 5;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .navBarRight{
     flex: 4;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     color: black;
     margin-right: 20px;
     
@@ -73,7 +76,7 @@
 }
 .centerIcon{
     width: 60px;
-    display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -81,7 +84,6 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 8px;
-    padding-bottom: 8px;
     border-radius: 13px;
 }
 .centerIcon:hover{
@@ -114,7 +116,26 @@
     text-align: center;
     font-size: 13px;
 }
-.pageIcon:clic{
+.pageIcon:hover{
     color: #1778F2;
     font-size: 15px;
+}
+.iconBottom{
+    background-color: #ffffff;
+    width: 60px;
+    height: 4px;
+    border-radius: 25px;
+}
+.iconBottom1{
+    background-color: #1778F2;
+    width: 60px;
+    height: 4px;
+    border-radius: 25px;
+}
+.pageIcon1{
+    color: #1778F2;
+    margin-left: 20%;
+}
+.pageIcon{
+    margin-left: 20%;
 }
