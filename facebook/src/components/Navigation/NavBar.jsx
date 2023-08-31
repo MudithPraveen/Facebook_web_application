@@ -10,6 +10,10 @@ import AppsIcon from '@mui/icons-material/Apps';
 import ForumRoundedIcon from '@mui/icons-material/ForumRounded';
 import NotificationsActiveRoundedIcon from '@mui/icons-material/NotificationsActiveRounded';
 import "./navBar.css";
+function pageButton(x)
+{
+    
+}
 
 export default function NavBar() {
   return (
@@ -25,8 +29,8 @@ export default function NavBar() {
         </div>
         <div className="navBarCenter">
             <div className="pages">
-                <div className="centerIcon">
-                    <HomeRoundedIcon className="centerIcon1" style={{fontSize:'35px'}}/>
+                <div className="centerIcon" >
+                    <HomeRoundedIcon onClick={pageButton(this)} style={{fontSize:'35px'}}/>
                 </div>
                 <div className="centerIcon">
                     <VideoLibraryIcon style={{fontSize:'35px'}}/>
